@@ -1,0 +1,28 @@
+/* .modalPadding{
+    padding-top: 40px !important;
+} */
+
+.modalBackground{
+    background-color: #F7FaFC;
+    border-radius: 8px;
+    position: relative;
+}
+.p0Login{
+    padding: 0 !important;
+}
+
+.modal {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: -webkit-fill-available !important;
+    height: -moz-available !important;
+    height: stretch !important;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .modalContent {
+        width: fit-content !important;
+    }
+}

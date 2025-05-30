@@ -1,0 +1,74 @@
+{
+  "name": "e-book-react-js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cleandersonlobo/react-mic": "^1.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@tinymce/tinymce-react": "^3.9.0",
+    "animate.css": "^4.1.1",
+    "antd": "^4.9.4",
+    "atrament": "https://github.com/lampn9397/atrament.js.git",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
+    "crypto-js": "^4.0.0",
+    "css-element-queries": "^1.2.3",
+    "immutability-helper": "^3.1.1",
+    "lodash.shuffle": "^4.2.0",
+    "moment": "^2.29.1",
+    "node-sass": "4.14.1",
+    "query-string": "^6.13.7",
+    "radium": "^0.26.1",
+    "react": "^17.0.1",
+    "react-animations": "^1.0.0",
+    "react-canvas-confetti": "^1.2.0",
+    "react-color": "^2.19.3",
+    "react-diff": "^0.0.7",
+    "react-dnd": "^11.1.3",
+    "react-dnd-html5-backend": "^11.1.3",
+    "react-dom": "^17.0.1",
+    "react-flip-page": "^1.6.4",
+    "react-h5-audio-player": "^3.5.0",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^4.1.0",
+    "react-lineto": "^3.2.0",
+    "react-notification-alert": "^0.0.13",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-simple-animate": "^3.3.12",
+    "reactstrap": "^8.7.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "video-react": "^0.14.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

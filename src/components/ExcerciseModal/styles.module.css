@@ -1,0 +1,81 @@
+.container {
+  flex: 1;
+  display: flex;
+}
+
+.contentContainer {
+  flex: 1;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.loadingContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalDialog {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modalBody {
+  overflow: auto;
+  max-height: calc(100vh - 82px);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.modalBody::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.modalBody {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.modalContent {
+  height: auto;
+  min-height: 100%;
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: none;
+  /* width: 198vh; */
+}
+.spanButton {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 20px !important;
+  background-color: #EA002E !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  display: flex !important;
+  color: white !important;
+}
+.closeButton {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.modalContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bookItem {
+  margin: 14px;
+  box-shadow: 1px 1px 6px 1px #3b3b3b;
+}
+.bookImage {
+  width: auto;
+  height: 40vh;
+}
+

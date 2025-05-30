@@ -1,0 +1,38 @@
+.displayNone {
+  display: none;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white!important;
+  border-color: transparent!important;
+  background-color: #F13536!important; 
+}
+.buttonIcon {
+  margin-right: 8px;
+}
+.button:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white!important;
+  border-color: transparent!important;
+  background-color: #F13536!important; 
+}
+.button:focus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white!important;
+  border-color: transparent!important;
+  background-color: #F13536!important; 
+}
+.button:active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white!important;
+  border-color: transparent!important;
+  background-color: #F13536!important; 
+}

@@ -1,0 +1,70 @@
+.mv14 {
+  margin: 14px 0px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex1 {
+  flex: 1;
+}
+.columnFlex {
+  flex-direction: column;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.alignCenter {
+  align-items: center;
+}
+.textCenter {
+  text-align: center;
+}
+
+.videoContainer {
+  width: 35vw;
+  height: 40vh;
+}
+.video {
+  width: 100%!important;
+  height: 100%!important;
+  padding-top: 0px!important;
+}
+.listContainer {
+  min-height: 80px;
+  padding: 8px;
+  margin-left: 14px;
+  border-radius: 14px;
+  border: 2px solid black;
+}
+.dragItem {
+  height: 50px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  width: calc(100% / 4);
+}
+.dropZone {
+  width: calc(100% / 3);
+  min-height: 50px;
+  margin: 14px 0px;
+}
+.dropZoneText {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+.dropZoneImage {
+  width: fit-content;
+  height: fit-content;
+}
+.dropZoneContent {
+  display: flex;
+  margin-left: 8px;
+  min-height: 50px;
+  min-width: 140px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+}

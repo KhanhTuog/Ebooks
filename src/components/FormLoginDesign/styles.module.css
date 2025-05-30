@@ -1,0 +1,70 @@
+.displayImg {
+    display: block;
+}
+
+.form {
+    min-width: 300px;
+}
+
+.bigBoxTransform {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #6474FC;
+    border-radius: 7px;
+    transform: rotate(65deg);
+    margin-bottom: 7px
+}
+
+.smallBoxTransform {
+    width: 14px;
+    height: 14px;
+    background-color: #2ECE76;
+    border-radius: 2px;
+    transform: rotate(20deg);
+    margin-left: -15px
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .topIcon {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .displayImg {
+        display: none;
+    }
+    .form {
+        min-width: 100px;
+    }
+    .title {
+        text-align: center;
+    }
+    .topIcon {
+        right: -40px !important;
+        top: -23px !important;
+    }
+    .smallBoxTransform {
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .topIcon {
+        left: 0 !important;
+        top: -23px;
+    }
+    .smallBoxTransform {
+        margin-left: 45px;
+    }
+}

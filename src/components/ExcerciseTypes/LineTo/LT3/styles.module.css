@@ -1,0 +1,8 @@
+.img {
+  /* width: "80%"; */
+  /* height: 100vh; */
+  /* height: auto; */
+  width: '80%';
+  cursor: pointer;
+  /* max-height: calc(100vh - 56px - 159px - 68px); */
+}

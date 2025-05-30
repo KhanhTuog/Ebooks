@@ -1,0 +1,13 @@
+.boxContain {
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.colorContainer {
+    /* display: flex; */
+    justify-content: flex-end;
+}
